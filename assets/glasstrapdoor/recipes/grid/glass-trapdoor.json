@@ -1,0 +1,61 @@
+[{
+  "ingredientPattern": "G_G,PRP,___",
+  "width": 3,
+	"height": 3,
+  "RecipeGroup": 0,
+  "ingredients": {
+    "G": { "type": "block", "code": "game:glass-*",  "name": "glass" },
+    "P": { "type": "item",  "code": "game:plank-*", "name": "wood" },
+    "R": { "type": "item",  "code": "game:rod-iron" }
+  },
+  "output": { "type": "block", "code": "glasstrapdoor:glass-trapdoor-{glass}-{wood}", "quantity": 2 }
+},
+{
+  "ingredientPattern": "G_G,_M_,___",
+  "width": 3,
+  "height": 3,
+  "RecipeGroup": 0,
+  "ingredients": {
+    "G": { "type": "block", "code": "game:glasspane-leaded-*-ew", "name": "wood" },
+    "M": { "type": "item",  "code": "game:metalbit-*" }
+  },
+  "output": { "type": "block", "code": "glasstrapdoor:leaded-glass-trapdoor-{wood}-v", "quantity": 2 }
+},
+{
+  "ingredientPattern": "___,_M_,G_G",
+  "width": 3,
+  "height": 3,
+  "RecipeGroup": 0,
+  "ingredients": {
+    "G": { "type": "block", "code": "game:glasspane-leaded-*-ew", "name": "wood" },
+    "M": { "type": "item",  "code": "game:metalbit-*" }
+  },
+  "output": { "type": "block", "code": "glasstrapdoor:leaded-glass-trapdoor-{wood}-h", "quantity": 2 }
+},
+
+  {
+    "ingredientPattern": "V",
+    "width": 1,
+    "height": 1,
+    "RecipeGroup": 1,
+    "shapeless": true,
+    "ingredients": {
+      "V": { "type": "block", "code": "glasstrapdoor:leaded-glass-trapdoor-*-v", "name": "wood" }
+    },
+    "output": { "type": "block", "code": "glasstrapdoor:leaded-glass-trapdoor-{wood}-h", "quantity": 1 }
+  },
+    {
+      "ingredientPattern": "H",
+      "width": 1,
+      "height": 1,
+      "RecipeGroup": 1,
+      "shapeless": true,
+      "ingredients": {
+        "H": { "type": "block", "code": "glasstrapdoor:leaded-glass-trapdoor-*-h", "name": "wood" }
+      },
+      "output": { "type": "block", "code": "glasstrapdoor:leaded-glass-trapdoor-{wood}-v", "quantity": 1 }
+    }
+
+
+
+]
