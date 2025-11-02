@@ -1,12 +1,11 @@
 [{
-  "ingredientPattern": "G_G,PRP,___",
+  "ingredientPattern": "PPP,PGP,PPP",
   "width": 3,
 	"height": 3,
   "RecipeGroup": 0,
   "ingredients": {
     "G": { "type": "block", "code": "game:glass-*",  "name": "glass" },
-    "P": { "type": "item",  "code": "game:plank-*", "name": "wood" },
-    "R": { "type": "item",  "code": "game:rod-iron" }
+    "P": { "type": "item",  "code": "game:plank-*", "name": "wood" }
   },
   "output": { "type": "block", "code": "glasstrapdoor:glass-trapdoor-{glass}-{wood}", "quantity": 2 }
 },
