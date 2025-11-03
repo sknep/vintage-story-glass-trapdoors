@@ -4,11 +4,6 @@
   "name": "Glass Trapdoors",
   "description": "Adds glass trapdoors which are craftable from glass and planks or leaded panes and metal bits.",
   "version": "1.0.0",
-  "dependencies": { 
-	  "game": "",
-	  "survival": ""
-  },
-  "gameVersion": "1.20.0",
   "side": "Universal",
   "authors": ["MissesHex"]
 }
