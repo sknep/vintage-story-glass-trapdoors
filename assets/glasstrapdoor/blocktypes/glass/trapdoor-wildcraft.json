@@ -1,0 +1,73 @@
+{
+    "code": "glass-trapdoor-wc",
+	"class": "BlockGeneric",
+	"entityClass": "Generic",
+	"behaviors": [ 
+		{ "name": "Lockable" },
+		{ "name": "TrapDoor" },
+		{ "name": "BlockEntityInteract" }
+	], 
+	"entityBehaviors": [{ "name": "TrapDoor" }],
+	"variantgroups": [
+        { "code": "glass", "states": [
+			"plain","smoky","quartz","vintage",
+			"blue","green","red","yellow","violet",
+			"pink","brown"
+		] },
+	    { "code": "wood", "loadFromProperties": "wildcrafttree:block/wood" }
+	],
+	"shape": { "base": "glasstrapdoor:block/glass/trapdoor" },
+	"attributes": {
+		"reinforcable": true,
+		"handbook": {
+			"extraSections": [{ "title": "", "text": "glasstrapdoor:handbook-glass-trapdoor-desc" }]
+		},
+        "airtightByType": { "*": true },
+		"width": 1,
+		"length": 1,
+		"height": 0,
+		"easingSpeed": 10
+	},
+	"creativeinventory": {
+		"general": ["*"],
+		"construction": ["*"]
+	},
+    "textures": {
+        "glass": { "base": "game:block/glass/{glass}" },
+		"wood":  { 
+			"base": "game:block/wood/debarked/{wood}" ,
+				"blendedOverlays": [{ "base": "game:block/wood/trapdoor/overlay", "blendMode": "Overlay" }] 
+		},
+		"black":  { "base": "game:block/black" },
+		"white":  { "base": "game:block/linen" },
+		"transparent":  { "base": "game:block/transparent" },
+		"putty": { "base": "game:block/glass/frame" }
+
+    },
+	"renderPass": "OpaqueNoCull",
+	"faceCullMode": "NeverCull",
+	"blockmaterial": "Glass",
+	"sideAo": { "all": false },
+	"heldTpIdleAnimation": "holdunderarm",
+	"replaceable": 500,
+	"resistance": 1,
+	"lightAbsorption": 0.3,
+	"sidesolid": {
+		"all": false
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"selectionbox": { 
+		"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1875, "z2": 1
+	},
+	"collisionbox": { 
+		"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1875, "z2": 1
+	},
+	"sounds": {
+		"place": "game:block/door",
+		"hit": "game:block/glass",
+		"break": "game:block/glass"
+	},
+	"materialDensity": 200
+}
