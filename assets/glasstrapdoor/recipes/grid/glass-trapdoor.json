@@ -10,16 +10,6 @@
   "output": { "type": "block", "code": "glasstrapdoor:glass-trapdoor-{glass}-{wood}", "quantity": 2 }
 },
 {
-  "ingredientPattern": "PPP,PGP,PPP",
-  "width": 3, "height": 3,
-  "RecipeGroup": 0,
-  "ingredients": {
-    "G": { "type": "block", "code": "game:glass-*",  "name": "glass" },
-    "P": { "type": "item",  "code": "wildcrafttree:plank-*", "name": "wood" }
-  },
-  "output": { "type": "block", "code": "glasstrapdoor:glass-trapdoor-wc-{glass}-{wood}", "quantity": 2 }
-},
-{
   "ingredientPattern": "G_G,_M_,___",
   "width": 3,
   "height": 3,
@@ -42,28 +32,6 @@
   "output": { "type": "block", "code": "glasstrapdoor:leaded-glass-trapdoor-{wood}-h", "quantity": 2 }
 },
 {
-  "ingredientPattern": "G_G,_M_,___",
-  "width": 3,
-  "height": 3,
-  "RecipeGroup": 0,
-  "ingredients": {
-    "G": { "type": "block", "code": "wildcrafttree:glasspane-leaded-*-ew", "name": "wood" },
-    "M": { "type": "item",  "code": "game:metalbit-*" }
-  },
-  "output": { "type": "block", "code": "glasstrapdoor:leaded-glass-trapdoor-wc-{wood}-v", "quantity": 2 }
-},
-{
-  "ingredientPattern": "___,_M_,G_G",
-  "width": 3,
-  "height": 3,
-  "RecipeGroup": 0,
-  "ingredients": {
-    "G": { "type": "block", "code": "wildcrafttree:glasspane-leaded-*-ew", "name": "wood" },
-    "M": { "type": "item",  "code": "game:metalbit-*" }
-  },
-  "output": { "type": "block", "code": "glasstrapdoor:leaded-glass-trapdoor-wc-{wood}-h", "quantity": 2 }
-},
-{
   "ingredientPattern": "V",
   "width": 1,
   "height": 1,
@@ -84,31 +52,5 @@
       "H": { "type": "block", "code": "glasstrapdoor:leaded-glass-trapdoor-*-h", "name": "wood" }
     },
     "output": { "type": "block", "code": "glasstrapdoor:leaded-glass-trapdoor-{wood}-v", "quantity": 1 }
-},
-{
-  "ingredientPattern": "V",
-  "width": 1,
-  "height": 1,
-  "RecipeGroup": 1,
-  "shapeless": true,
-  "ingredients": {
-    "V": { "type": "block", "code": "glasstrapdoor:leaded-glass-trapdoor-wc-*-v", "name": "wood" }
-  },
-  "output": { "type": "block", "code": "glasstrapdoor:leaded-glass-trapdoor-wc-{wood}-h", "quantity": 1 }
-},
-{
-  "ingredientPattern": "H",
-  "width": 1,
-  "height": 1,
-  "RecipeGroup": 1,
-  "shapeless": true,
-  "ingredients": {
-    "H": { "type": "block", "code": "glasstrapdoor:leaded-glass-trapdoor-wc-*-h", "name": "wood" }
-  },
-  "output": { "type": "block", "code": "glasstrapdoor:leaded-glass-trapdoor-wc-{wood}-v", "quantity": 1 }
 }
-
-
-
-
 ]

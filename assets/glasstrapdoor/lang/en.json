@@ -23,8 +23,6 @@
   "glasstrapdoor:block-glass-trapdoor-wc-violet-*":  "Violet glass trapdoor",
   "glasstrapdoor:block-glass-trapdoor-wc-pink-*":    "Pink glass trapdoor",
   "glasstrapdoor:block-glass-trapdoor-wc-brown-*":   "Brown glass trapdoor",
-  "glasstrapdoor:block-leaded-glass-trapdoor-wc-*-h": "Leaded glass trapdoor (horizontal)",
-  "glasstrapdoor:block-leaded-glass-trapdoor-wc-*-v": "Leaded glass trapdoor (vertical)",
   "glasstrapdoor:handbook-glass-trapdoor-desc": "Craft glass trapdoors from glass blocks and wood planks.",
   "glasstrapdoor:handbook-leaded-glass-trapdoor-desc": "Craft leaded glass trapdoors from glass panes and metal bits. Return the crafted trapdoor to the crafting grid to rotate the pane orientation."
 }

@@ -3,7 +3,7 @@
   "modid": "glasstrapdoor",
   "name": "Glass Trapdoors",
   "description": "Adds glass trapdoors which are craftable from glass and planks or leaded panes and metal bits.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "side": "Universal",
   "authors": ["MissesHex"]
 }
