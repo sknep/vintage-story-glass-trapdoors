@@ -19,7 +19,8 @@
 	"attributes": {
 		"reinforcable": true,
 		"handbook": {
-			"extraSections": [{ "title": "", "text": "glasstrapdoor:handbook-leaded-glass-trapdoor-desc" }]
+			"extraSections": [{ "title": "", "text": "glasstrapdoor:handbook-leaded-glass-trapdoor-desc" }],
+			"groupBy": ["leaded-glass-trapdoor-*"]
 		},
         "airtightByType": { "*": true },
 		"width": 1,
