@@ -20,7 +20,8 @@
 	"attributes": {
 		"reinforcable": true,
 		"handbook": {
-			"extraSections": [{ "title": "", "text": "glasstrapdoor:handbook-glass-trapdoor-desc" }]
+			"extraSections": [{ "title": "", "text": "glasstrapdoor:handbook-glass-trapdoor-desc" }],
+			"groupBy": ["glass-trapdoor-*"]
 		},
         "airtightByType": { "*": true },
 		"width": 1,
